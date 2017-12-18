@@ -3,12 +3,13 @@
     flex-grow: 4;
     justify-content: space-around;
     align-items: flex-end;
+    color: #38524f;
+
 }
 div > .button-menus {
     background-color: transparent;
     cursor: default;
     flex-basis: auto;
-    color: gray;
     width: 33.33%;
-    border: 0px;
+    border: 0;
 }

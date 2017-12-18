@@ -20,10 +20,22 @@
   height: 150px;
   background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
   padding: 20px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   color: black;
 }
 
+.App-body {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.App-footer {
+  background: #38524f;
+  color: lightgray;
+}
 .App-intro {
   font-size: large;
 }

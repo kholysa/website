@@ -1,0 +1,41 @@
+.Text-and-Picture {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.text {
+    background: rgba(230,230,230,0.3);
+    order: 0;
+    color: #38524f;
+    flex-grow: 1;
+    margin-bottom: 0;
+    padding: 1% 5% 0 5%;
+    max-width: 500px;
+
+}
+
+a:visited {
+    color: #0F523C;
+}
+
+.Eng-picture {
+    order: 0;
+    max-width: 600px;
+    max-height: 20em;
+    flex-grow: 1;
+    opacity: 0.5;
+    filter: blur(1px) sepia(1) hue-rotate(120deg);
+}
+
+.Theatre-picture {
+    order: 0;
+    max-width: 600px;
+    max-height: 20em;
+    flex-grow: 1;
+    opacity: 0.5;
+    filter: blur(1px) sepia(1) hue-rotate(120deg);
+
+}
+
