@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import {Button, ButtonGroup} from 'reactstrap';
+import { Link } from 'react-scroll'
+import {ButtonGroup} from 'reactstrap';
 import '../style/Buttons.css';
 
 class Menus extends Component {
@@ -20,7 +20,7 @@ class WhoButton extends Component {
         return (
             <Link className="button-menus btn btn-secondary" activeClass="active" to="who-element" spy={true} smooth={true} offset={50} duration={500} >
                 <div>
-                    Who
+                    <h3>Who</h3>
                 </div>
             </Link>
         );
@@ -32,7 +32,7 @@ class WhatButton extends Component {
         return (
             <Link className="button-menus btn btn-secondary" activeClass="active" to="what-element" spy={true} smooth={true} offset={50} duration={500} >
                 <div>
-                    What
+                    <h3>What</h3>
                 </div>
             </Link>
         );
@@ -44,7 +44,7 @@ class WhereButton extends Component {
         return (
             <Link className="button-menus btn btn-secondary" activeClass="active" to="where-element" spy={true} smooth={true} offset={50} duration={500} >
                 <div>
-                    Where
+                    <h3>Where</h3>
                 </div>
             </Link>
         );
