@@ -6,6 +6,7 @@
 }
 div > .button-menus {
     background-color: transparent;
+    cursor: default;
     flex-basis: auto;
     color: gray;
     width: 33.33%;
