@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Button} from 'react-bootstrap';
+import {Button} from 'reactstrap';
+import '../style/Buttons.css';
 
 class Menus extends Component {
     render() {
@@ -13,11 +14,10 @@ class Menus extends Component {
     }
 }
 
-
 class WhoButton extends Component {
     render() {
         return (
-            <Button>
+            <Button className="button-menus">
                 Who
             </Button>
         );
@@ -27,7 +27,7 @@ class WhoButton extends Component {
 class WhatButton extends Component {
     render() {
         return (
-            <Button>
+            <Button className="button-menus">
                 What
             </Button>
         );
@@ -37,7 +37,7 @@ class WhatButton extends Component {
 class WhereButton extends Component {
     render() {
         return (
-            <Button>
+            <Button className="button-menus">
                 Where
             </Button>
         );

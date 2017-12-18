@@ -6,13 +6,14 @@
   animation: App-logo-spin;
   height: 100px;
   width: 100px;
-  border-radius:50px;
+  border-radius:1000px;
   align-content: flex-start;
 }
 
 .App-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-start;
   height: 150px;
   padding: 20px;
   color: grey;

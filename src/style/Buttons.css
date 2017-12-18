@@ -1,0 +1,11 @@
+.Menus {
+    display: flex;
+    flex-grow: 4;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+div > .button-menus {
+    background-color: white;
+    flex-basis: auto;
+    color: gray;
+}
