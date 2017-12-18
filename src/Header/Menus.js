@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import {Button} from 'reactstrap';
+import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import {Button, ButtonGroup} from 'reactstrap';
 import '../style/Buttons.css';
 
 class Menus extends Component {
     render() {
         return (
-            <div className="Menus">
+            <ButtonGroup className="Menus">
                 <WhoButton/>
                 <WhatButton/>
                 <WhereButton/>
-            </div>
+            </ButtonGroup>
         );
     }
 }
@@ -17,9 +18,11 @@ class Menus extends Component {
 class WhoButton extends Component {
     render() {
         return (
-            <Button className="button-menus">
-                Who
-            </Button>
+            <Link className="button-menus btn btn-secondary" activeClass="active" to="who-element" spy={true} smooth={true} offset={50} duration={500} >
+                <div>
+                    Who
+                </div>
+            </Link>
         );
     }
 }
@@ -27,9 +30,11 @@ class WhoButton extends Component {
 class WhatButton extends Component {
     render() {
         return (
-            <Button className="button-menus">
-                What
-            </Button>
+            <Link className="button-menus btn btn-secondary" activeClass="active" to="what-element" spy={true} smooth={true} offset={50} duration={500} >
+                <div>
+                    What
+                </div>
+            </Link>
         );
     }
 }
@@ -37,9 +42,11 @@ class WhatButton extends Component {
 class WhereButton extends Component {
     render() {
         return (
-            <Button className="button-menus">
-                Where
-            </Button>
+            <Link className="button-menus btn btn-secondary" activeClass="active" to="where-element" spy={true} smooth={true} offset={50} duration={500} >
+                <div>
+                    Where
+                </div>
+            </Link>
         );
     }
 }

@@ -5,7 +5,9 @@
     align-items: flex-end;
 }
 div > .button-menus {
-    background-color: white;
+    background-color: transparent;
     flex-basis: auto;
     color: gray;
+    width: 33.33%;
+    border: 0px;
 }
