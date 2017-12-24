@@ -1,3 +1,6 @@
+body, html {
+  height: 100%;
+}
 .App {
   text-align: center;
 }
@@ -19,8 +22,7 @@
   justify-content: flex-start;
   height: 150px;
   background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
-  padding: 20px;
-  padding-bottom: 0;
+  padding: 20px 20px 0;
   color: black;
 }
 
@@ -38,9 +40,4 @@
 }
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }

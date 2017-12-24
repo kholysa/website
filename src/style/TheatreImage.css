@@ -1,0 +1,6 @@
+.Theatre-image{
+    background: url("../Images/spotlight.jpg") no-repeat fixed center;
+    filter: blur(1px) sepia(1) hue-rotate(120deg);
+    background-size: cover;
+    height: 100vh;
+}
