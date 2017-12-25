@@ -2,7 +2,6 @@ div > .Menus {
     color: white;
     width: 50%;
     position: fixed;
-    margin-left: -25%;
     z-index: 1;
 }
 div > .button-menus {
