@@ -11,6 +11,9 @@ class Footer extends Component {
                     Call me bb
                     <br/>
                     Or email me pls
+                    <br/>
+                    Images used
+                    <a href="http://www.freepik.com">Designed by Harryarts / Freepik</a>
                 </div>
             </Element>
         );
