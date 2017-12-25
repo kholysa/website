@@ -9,7 +9,7 @@ class Who extends Component {
         return (
             <Element name="who-element">
                 <div className="Text-and-Picture">
-                    <img src={EngPicture} className="Eng-picture"/>
+                    <img alt="" src={EngPicture} className="Eng-picture"/>
                     <p className="text">
                         <h2><b>Oh hello!</b></h2>
                         <h3><b>I&#39;m saif elkholy</b></h3>
@@ -30,7 +30,7 @@ class Who extends Component {
                             You can find out more in this nifty little website we set up <a href="http://autstheatre.ca">The Arts Undergraduate Theatre Society</a>
                         </h4>
                     </p>
-                    <img src={TheatrePicture} className="Theatre-picture" />
+                    <img alt="" src={TheatrePicture} className="Theatre-picture" />
                 </div>
             </Element>
         );

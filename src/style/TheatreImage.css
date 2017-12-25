@@ -1,6 +1,22 @@
 .Theatre-image{
     background: url("../Images/spotlight.jpg") no-repeat fixed center;
-    filter: blur(1px) sepia(1) hue-rotate(120deg);
+    filter: sepia(1) hue-rotate(120deg);
     background-size: cover;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Intro-text {
+    color: white;
+    padding: 1em;
+    border:10px solid rgba(255,255,255,0.8);
+    border-radius: 100px;
+}
+
+.Side-scroll {
+    color: white;
+    /*position: fixed;*/
+    margin-right: auto;
 }
