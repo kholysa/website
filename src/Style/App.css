@@ -8,7 +8,7 @@ body, html {
 .App-Img {
     /*background: url("../Images/circuit.jpg") no-repeat fixed center ;*/
     /*background-size: cover;*/
-    background-color: #0c5460;
+    background-color: #000000;
     /*filter: sepia(1) hue-rotate(120deg);*/
     /*height: 100vh;*/
 
@@ -23,6 +23,7 @@ body, html {
 
 .App-header {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   padding: 20px 20px;
 }

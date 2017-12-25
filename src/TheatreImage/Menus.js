@@ -20,7 +20,7 @@ class WhoButton extends Component {
         return (
             <Link className="button-menus btn btn-secondary" activeClass="active" to="who-element" spy={true} smooth={true} offset={50} duration={500} >
                 <div>
-                    <h3>Who</h3>
+                    <p>Who</p>
                 </div>
             </Link>
         );
@@ -32,7 +32,7 @@ class WhatButton extends Component {
         return (
             <Link className="button-menus btn btn-secondary" activeClass="active" to="what-element" spy={true} smooth={true} offset={50} duration={500} >
                 <div>
-                    <h3>What</h3>
+                    <p>What</p>
                 </div>
             </Link>
         );
@@ -44,7 +44,7 @@ class WhereButton extends Component {
         return (
             <Link className="button-menus btn btn-secondary" activeClass="active" to="where-element" spy={true} smooth={true} offset={50} duration={500} >
                 <div>
-                    <h3>Where</h3>
+                    <p>Where</p>
                 </div>
             </Link>
         );
