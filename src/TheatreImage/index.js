@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../style/TheatreImage.css'
+import '../Style/TheatreImage.css'
 
 class App extends Component {
     render() {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll'
 import {ButtonGroup} from 'reactstrap';
-import '../style/Buttons.css';
+import '../Style/Buttons.css';
 
 class Menus extends Component {
     render() {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Element } from 'react-scroll'
 import EngPicture from "../../Images/who.jpg";
 import TheatrePicture from "../../Images/who_theatre.jpg"
-import '../../style/Who.css';
+import '../../Style/Who.css';
 
 class Who extends Component {
     render() {

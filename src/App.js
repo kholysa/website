@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style/App.css';
+import './Style/App.css';
 import Header from './Header';
 import TheatreImage from './TheatreImage';
 import Body from "./Body";
