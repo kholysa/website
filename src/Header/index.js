@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import BoxContainer from '../UI/BoxContainer';
 import '../Style/Who.css';
 
 
@@ -13,6 +14,7 @@ class Header extends Component {
                     <br/>
                     3 years and 5 productions later, I can safely say that I consider theatre tech work as fun
                 </h3>
+                <BoxContainer BoxData={[{BoxTitle: "Yupspsps"}, {BoxTitle:"boogidiboo"}]}/>
                 <div className="text">
                     <h2><b>I've also participated in hackathons and coding competitions</b></h2>
                     <h4>

@@ -1,0 +1,12 @@
+.Box-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-around;
+}
+
+.Box {
+    flex-grow: 1;
+}

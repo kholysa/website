@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../Style/TheatreImage.css'
 import Menus from './Menus'
 
-class App extends Component {
+class TheatreImage extends Component {
     render() {
         return (
     <div>
@@ -20,4 +20,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default TheatreImage;
