@@ -6,12 +6,6 @@ body, html {
 }
 
 .App-Img {
-    /*background: url("../Images/circuit.jpg") no-repeat fixed center ;*/
-    /*background-size: cover;*/
-    background-color: #000000;
-    /*filter: sepia(1) hue-rotate(120deg);*/
-    /*height: 100vh;*/
-
 }
 
 .App-logo {
@@ -26,6 +20,7 @@ body, html {
   flex-direction: column;
   justify-content: flex-start;
   padding: 20px 20px;
+  background-color: #000000;
 }
 
 .App-body {

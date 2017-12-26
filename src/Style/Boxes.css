@@ -5,8 +5,14 @@
     justify-content: space-evenly;
     align-items: stretch;
     align-content: space-around;
+    margin: 1%;
 }
 
 .Box {
     flex-grow: 1;
+    word-wrap: normal;
+    color: #fff;
+    border: 2px solid grey;
+    margin: 1%;
+    border-radius: 100px;
 }
