@@ -4,9 +4,13 @@ import '../Style/Boxes.css'
 
 const Box = props => (
     <div className="Box">
-        {props.BoxTitle}
+        <div className="Box-title">
+            <h4>{props.BoxTitle}</h4>
+        </div>
         <br/>
-        {props.BoxBlurb}
+        <div className="Box-blurb">
+            {props.BoxBlurb}
+        </div>
         {/*<img src={props.BoxImage} alt={props.BD.BoxBlurb}/>*/}
     </div>
 );

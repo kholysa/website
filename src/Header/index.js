@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import BoxContainer from '../UI/BoxContainer';
 import '../Style/Who.css';
 import Hobbies from './constants';
