@@ -8,7 +8,7 @@ class Menus extends Component {
         return (
             <ButtonGroup className="Menus">
                 <WhoButton/>
-                <WhatButton/>
+                {/*<WhatButton/>*/}
                 <WhereButton/>
             </ButtonGroup>
         );

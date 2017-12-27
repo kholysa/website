@@ -1,15 +1,21 @@
+import DPM from '../Images/dpmmain.jpg';
+import MMIRROR from '../Images/mmirrormain.jpg';
+
 const hobbies = [
     {
-        BoxTitle: "First project",
-        BoxBlurb: "Ola my name is what my name is who my name i chicka chicka"
+        BoxTitle: "D.P.M.",
+        BoxBlurb: "Design, test and build a lego robot",
+        BoxImage: DPM
     },
     {
-        BoxTitle:"Second Project",
-        BoxBlurb: "This is blurb numba twooo ya ?"
+        BoxTitle:"Magic Mirror",
+        BoxBlurb: "Hands-free smart mirror",
+        BoxImage: MMIRROR
     },
     {
-        BoxTitle: "Third Project",
-        BoxBlurb: "Ola my name is what my name is who my name i chicka chicka"
+        BoxTitle: "This website",
+        BoxBlurb: "Built using ReactJS, and other node modules",
+        BoxImage: DPM
     }
 
 

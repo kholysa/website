@@ -11,7 +11,9 @@ const Box = props => (
         <div className="Box-blurb">
             {props.BoxBlurb}
         </div>
-        {/*<img src={props.BoxImage} alt={props.BD.BoxBlurb}/>*/}
+        <div className="Box-image">
+            <img className="image" src={props.BoxImage} alt={props.BoxBlurb}/>
+        </div>
     </div>
 );
 

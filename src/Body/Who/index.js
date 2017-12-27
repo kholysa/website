@@ -4,7 +4,7 @@ import { Element } from 'react-scroll'
 class Who extends Component {
     render() {
         return (
-            <Element name="who-element">
+            <Element name="">
 
             </Element>
         );
