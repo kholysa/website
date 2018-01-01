@@ -8,7 +8,6 @@ class Menus extends Component {
         return (
             <ButtonGroup className="Menus">
                 <WhoButton/>
-                {/*<WhatButton/>*/}
                 <WhereButton/>
             </ButtonGroup>
         );
@@ -18,21 +17,9 @@ class Menus extends Component {
 class WhoButton extends Component {
     render() {
         return (
-            <Link className="button-menus btn btn-secondary" activeClass="active" to="who-element" spy={true} smooth={true} offset={50} duration={500} >
+            <Link className="button-menus btn btn-secondary" activeClass="active" to="who-element" spy={true} smooth={true} duration={1500} >
                 <div>
                     <p>Who</p>
-                </div>
-            </Link>
-        );
-    }
-}
-
-class WhatButton extends Component {
-    render() {
-        return (
-            <Link className="button-menus btn btn-secondary" activeClass="active" to="what-element" spy={true} smooth={true} offset={50} duration={500} >
-                <div>
-                    <p>What</p>
                 </div>
             </Link>
         );
@@ -42,7 +29,7 @@ class WhatButton extends Component {
 class WhereButton extends Component {
     render() {
         return (
-            <Link className="button-menus btn btn-secondary" activeClass="active" to="where-element" spy={true} smooth={true} offset={50} duration={500} >
+            <Link className="button-menus btn btn-secondary" activeClass="active" to="where-element" spy={true} smooth={true} duration={1500} >
                 <div>
                     <p>Where</p>
                 </div>

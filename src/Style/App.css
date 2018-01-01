@@ -29,7 +29,15 @@ body, html {
 
 .App-footer {
   background: #38524f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: lightgray;
+  padding-bottom: 1vh;
+}
+
+.Footer-form{
+  width: 60%;
 }
 .App-intro {
   font-size: large;
