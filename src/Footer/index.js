@@ -27,7 +27,7 @@ class Footer extends Component {
     };
 
     handleSubmit = () => {
-        this.setState({submitting: true, error: false, message: false});
+        this.setState({submitting: true, error: false});
         return axios.post(
             "http://saif.elkholy.ca/php/sendForm.php",{
                 name: this.state.name,

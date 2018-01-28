@@ -30,7 +30,9 @@ class Box extends Component {
             <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                 <ModalHeader toggle={this.handleBoxClick}>{this.props.BoxTitle}</ModalHeader>
                 <ModalBody>
+                    <div className="Modal-text">
                     {this.props.BoxModal}
+                    </div>
                 </ModalBody>
                 <ModalFooter>
                     <Button color="secondary" onClick={this.handleBoxClick}>Close</Button>
