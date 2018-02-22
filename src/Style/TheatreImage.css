@@ -11,6 +11,7 @@
 
 .Intro-text {
     color: white;
+    position: absolute;
     padding: 1em;
     border:10px solid rgba(255,255,255,0.8);
     border-radius: 100px;
@@ -20,4 +21,11 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+}
+
+.Particles-overlay{
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
 }
