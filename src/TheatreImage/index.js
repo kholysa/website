@@ -10,27 +10,27 @@ class TheatreImage extends Component {
         <div className="Menu-wrapper">
             <Menus/>
         </div>
-        <Particles
-            params={{
-                particles: {
-                    line_linked: {
-                        shadow: {
-                            enable: true,
-                            color: "#000",
-                            blur: 1
-                        }
-                    },
-                    number: {
-                        value: 75
-                    },
+        {/*<Particles*/}
+        {/*    params={{*/}
+        {/*        particles: {*/}
+        {/*            line_linked: {*/}
+        {/*                shadow: {*/}
+        {/*                    enable: true,*/}
+        {/*                    color: "#000",*/}
+        {/*                    blur: 1*/}
+        {/*                }*/}
+        {/*            },*/}
+        {/*            number: {*/}
+        {/*                value: 75*/}
+        {/*            },*/}
 
-                }
-            }}
-            className="Particles-overlay"
-        >
+        {/*        }*/}
+        {/*    }}*/}
+        {/*    className="Particles-overlay"*/}
+        {/*>*/}
 
 
-        </Particles>
+        {/*</Particles>*/}
         <div className="Intro-text">
             <h4><b>Hey there!</b></h4>
             Scroll down to learn a bit more about me, Saif
