@@ -29,7 +29,7 @@ class Footer extends Component {
     handleSubmit = () => {
         this.setState({submitting: true, error: false});
         return axios.post(
-            "http://saif.elkholy.ca/php/sendForm.php",{
+            "/php/sendForm.php",{
                 name: this.state.name,
                 email: this.state.email,
                 subject: this.state.subject,
