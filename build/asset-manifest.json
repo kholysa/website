@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.5137a758.chunk.css",
+    "main.js": "/website/static/js/main.932257bb.chunk.js",
+    "main.js.map": "/website/static/js/main.932257bb.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.763deec5.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.763deec5.js.map",
+    "static/css/2.67123b20.chunk.css": "/website/static/css/2.67123b20.chunk.css",
+    "static/js/2.fb3b605e.chunk.js": "/website/static/js/2.fb3b605e.chunk.js",
+    "static/js/2.fb3b605e.chunk.js.map": "/website/static/js/2.fb3b605e.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.f21a8f2562808dd4f25e33ff509ca493.js": "/website/precache-manifest.f21a8f2562808dd4f25e33ff509ca493.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/2.67123b20.chunk.css.map": "/website/static/css/2.67123b20.chunk.css.map",
+    "static/css/main.5137a758.chunk.css.map": "/website/static/css/main.5137a758.chunk.css.map",
+    "static/js/2.fb3b605e.chunk.js.LICENSE": "/website/static/js/2.fb3b605e.chunk.js.LICENSE",
+    "static/media/Elkholy_Saif_CV_Fall_2019.pdf": "/website/static/media/Elkholy_Saif_CV_Fall_2019.b2bcb4ca.pdf",
+    "static/media/codeJam.png": "/website/static/media/codeJam.d0593e51.png",
+    "static/media/dpmmain.jpg": "/website/static/media/dpmmain.f678e267.jpg",
+    "static/media/mchacks.png": "/website/static/media/mchacks.b0d96e3f.png",
+    "static/media/mmirrormain.jpg": "/website/static/media/mmirrormain.fdd898a6.jpg",
+    "static/media/react-hexagon.png": "/website/static/media/react-hexagon.04557c1b.png",
+    "static/media/TheatreImage.css": "/website/static/media/spotlight.2dd43e7c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.763deec5.js",
+    "static/css/2.67123b20.chunk.css",
+    "static/js/2.fb3b605e.chunk.js",
+    "static/css/main.5137a758.chunk.css",
+    "static/js/main.932257bb.chunk.js"
+  ]
+}
